@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang='en-GB' locale='en_GB'>
+<head>
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<title>JustKiss.co.uk™ | Can you answer the questions and find love? ❤️</title>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.eu01.nr-data.net","errorBeacon":"bam.eu01.nr-data.net","licenseKey":"NRJS-a8b3e14c38843390761","applicationID":"138963651","transactionName":"JhpeRQoXCVlTExwSFQoHSVMUFw4aRQlcFg==","queueTime":0,"applicationTime":194,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.eu01.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-a8b3e14c38843390761",applicationID:"138963651"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(9),c=t(10),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(11);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(8),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],7:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],8:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],9:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],10:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],11:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(9),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!M++){var t=T.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(x,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+T.offset],null,"api"),c("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){c("mark",["domContent",a()+T.offset],null,"api")}var a=t(5),c=t("handle"),f=t(9),u=t("ee"),s=t(7),d=t(2),p=t(3),l=d.getConfiguration("ssl")===!1?"http":"https",v=window,m=v.document,g="addEventListener",y="attachEvent",h=v.XMLHttpRequest,w=h&&h.prototype,b=!1;NREUM.o={ST:setTimeout,SI:v.setImmediate,CT:clearTimeout,XHR:h,REQ:v.Request,EV:v.Event,PR:v.Promise,MO:v.MutationObserver};var E=""+location,x={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1216.min.js"},O=h&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),T=e.exports={offset:a.getLastTimestamp(),now:a,origin:E,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(6),m[g]?(m[g]("DOMContentLoaded",o,p(!1)),v[g]("load",r,p(!1))):(m[y]("onreadystatechange",i),v[y]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var M=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(10),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<meta content='width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no, viewport-fit=cover' name='viewport'>
+<link href='https://d35vz4mrzuz1h1.cloudfront.net/assets/apple-touch-icon-c96215c65e158f0f3705ecc25c89e6c4eeec19402cedff91b86254de8217f55f.png' rel='apple-touch-icon' sizes='180x180'>
+<meta name="turbo-cache-control" content="cache" />
+<meta content='Quick and free registration ✅  Check out who you can meet ✅  Singles in your area ✅  Let our matchmaking technology reveal your best matches. Get started easily »' name='description'>
+<meta content='JustKiss.co.uk™ | Can you answer the questions and find love? ❤️' property='og:title'>
+<meta content='JustKiss' property='og:site_name'>
+<meta content='https://d35vz4mrzuz1h1.cloudfront.net/assets/logo-squared-8c0144b2222c4dae4b9cf7e7b00150c887b2e2f435c33b3e1729b60da6c99a1e.png' property='og:image'>
+<meta content='238256999842' property='fb:app_id'>
+<link rel="stylesheet" href="https://d35vz4mrzuz1h1.cloudfront.net/assets/base-555f0844521fa935439bd54feb80bb041957c06df0b556d60778fbd66a1204c2.css" data-turbo-track="reload" media="screen" />
+
+<script src="https://d35vz4mrzuz1h1.cloudfront.net/assets/bundles/enhance-a4b72d48df1e167d235b5ac3563984f2416baa18e426d196c51041489a5a5325.js" data-turbo-track="reload" async="async"></script>
+<script src="https://d35vz4mrzuz1h1.cloudfront.net/assets/webpack/production/js/enhance-156b46fbadb9578c8d65.js" data-turbo-track="reload" async="async"></script>
+<link rel="stylesheet" href="https://d35vz4mrzuz1h1.cloudfront.net/assets/webpack/production/css/enhance-cb08df44.css" data-turbo-track="reload" media="screen" />
+<link href='https://d35vz4mrzuz1h1.cloudfront.net/assets/webpack/production/js/app-19cd140240fc258b1228.js' rel='prefetch'>
+<link href='https://d35vz4mrzuz1h1.cloudfront.net/assets/bundles/app-fde7a2d231ef857819b6d19623a569d628b170d417bbbb6e0f18f21386f11d09.js' rel='prefetch'>
+<link href='https://d35vz4mrzuz1h1.cloudfront.net/assets/app-151b00ae8d2512e258e2719696eb3691e6f15924d11e0d3065f4a4925de8d207.css' rel='prefetch'>
+<link rel="preload" href="https://d35vz4mrzuz1h1.cloudfront.net/assets/National2-300-19b980809141f0bc6d37a5f59549bfdd6eb5768a217d807a6cec0b23e25bfb55.woff" as="font" type="font/woff" crossorigin="anonymous">
+<link rel="preload" href="https://d35vz4mrzuz1h1.cloudfront.net/assets/National2-400-2ac4e88e4570bbb28ceb0431fdfa19cc52dff60b3c8a0b4c10fe8736542b5fb9.woff" as="font" type="font/woff" crossorigin="anonymous">
+<link rel="preload" href="https://d35vz4mrzuz1h1.cloudfront.net/assets/National2-600-d1c772cf05a6bc3bc7a447ddf71ad82f126131d89b811df989b03edafe5cf6b3.woff" as="font" type="font/woff" crossorigin="anonymous">
+<link rel="preload" href="https://d35vz4mrzuz1h1.cloudfront.net/assets/National2-700-e07d8724e761142029d7eea3f0149bf8272efd57b41199ffc7afb155de100e80.woff" as="font" type="font/woff" crossorigin="anonymous">
+<link rel="preload" href="https://d35vz4mrzuz1h1.cloudfront.net/assets/icons-461e244070678d0a1a10ee79d7fba4a7d9c17e5c83167dce6b61ea38884adef0.woff" as="font" type="font/woff" crossorigin="anonymous">
+<link rel="icon" type="image/x-icon" href="https://d35vz4mrzuz1h1.cloudfront.net/assets/favicon-6af743f1efb1f27de644b55a75cc95867757d1eb7c2ba19348ae956eb0f49b66.ico" />
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="VGh9rHSvvQd5min7-6yODXyEC674bDI-twgEBC9q5ojT1qWtuOfCjI7Ofr0WxaSGmZ3ePYqC-2mktkDxd2qV7Q" />
+<link rel="alternate" href="https://www.justkiss.co.uk/" hreflang="en-gb" />
+<link rel="alternate" href="https://www.justkiss.no/" hreflang="nb-no" />
+<link rel="alternate" href="https://www.justkiss.de/" hreflang="de-de" />
+<link rel="alternate" href="https://www.justkiss.se/" hreflang="sv-se" />
+<link rel="alternate" href="https://www.justkiss.com/" hreflang="en-us x-default" />
+<link rel="alternate" href="https://www.justkiss.fi/" hreflang="fi-fi" />
+<link rel="alternate" href="https://www.justkiss.dk/" hreflang="da-dk" />
+<script>
+  window.FACEBOOK_SCOPES = 'email,user_photos,user_location,user_birthday,user_gender,user_likes';
+</script>
+<script>
+  window.dataLayerEvents = window.dataLayerEvents || []
+</script>
+<style>
+  .async-hide { opacity: 0 !important}
+</style>
+<script>
+  (function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+  h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+  (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+  })(window,document.documentElement,'async-hide','dataLayer',4000, {'GTM-5WH3QQK':true});
+</script>
+</head>
+
+<body class=' landing_page' data-turbo='false' id='body'>
+
+<div id='main'>
+
+<header class='blok blok__hero_signup_block  index_hero alternative' id='top'>
+<nav class='navbar' id='header' role='navigation'>
+<div class='container'>
+<div class='navbar-header'>
+<a class='navbar-brand' href='/'>
+<img alt="JustKiss" class="navbar-logo" src="https://d35vz4mrzuz1h1.cloudfront.net/assets/logo.justkiss-1aaf9f293d5d7915ab3654c170ed7dd7498eaa22ca8733071f4499f7df8e3776.png" />
+<img class="navbar-logo alternative" alt="JustKiss" src="https://d35vz4mrzuz1h1.cloudfront.net/assets/logo-inverse.justkiss-ebab639106c62c59274918332603bf4c712547029c9c47d28107207f606b0f02.png" />
+</a>
+</div>
+<a class='btn navbar-btn btn-outline navbar-right' data-intention='signup' href='/signup?ref=top-button' id='signup-btn-nav'>Register profile</a>
+<a class='btn navbar-btn btn-outline navbar-right' data-intention='login' href='/users/sign_in?ref=top-button' id='login-btn-nav'>Sign in</a>
+</div>
+</nav>
+<div class='quick-signup' id='box-quick-signup'>
+<div class='container'>
+<div class="message-list"><div class="message-avatar"><img alt="Sarah from JustKiss" src="https://d35vz4mrzuz1h1.cloudfront.net/assets/maria-6407fe6919132f5539b19ce8e5fcf055a5c75db9f511ba24625f1f93c7c20dc5.jpg" /></div><div class="message"><div class="message-content"><p>Hi! I'm Sarah from JustKiss - let me help you find your perfect match ❤️</p></div></div><div class="message"><div class="message-content"><p>Are you a man or a woman?</p></div></div></div>
+<div class='buttons'>
+<a class='btn' href='/signup?form=true&amp;gender=male&amp;ref=quick-signup-box' title='Create free profile'>I&#39;m a man</a>
+<a class='btn' href='/signup?form=true&amp;gender=female&amp;ref=quick-signup-box' title='Create free profile'>I&#39;m a woman</a>
+</div>
+</div>
+</div>
+
+</header>
+
+<section class='blok blok__content_section intro-w-features default'>
+<div class='container'>
+
+<div class='blok blok__feature_list alternative'>
+<ul>
+<li class='first'>
+<div class='feature-image'>
+<img alt="20 years of expertise with online dating" loading="lazy" src="//a.storyblok.com/f/48509/460x232/00712fc7f6/highlight_1.png" />
+</div>
+<div class='feature-content'>
+<div class='feature-title'><p>20 years of expertise with online dating</p>
+</div>
+<div class='feature-description'>
+
+</div>
+</div>
+</li>
+<li class='second'>
+<div class='feature-image'>
+<img alt="Market leading matchmaking technology" loading="lazy" src="//a.storyblok.com/f/48509/460x232/5993757bb6/highlight_2.png" />
+</div>
+<div class='feature-content'>
+<div class='feature-title'><p>Market leading matchmaking technology</p>
+</div>
+<div class='feature-description'>
+
+</div>
+</div>
+</li>
+<li class='third'>
+<div class='feature-image'>
+<img alt="Free to sign up, full access at fair rates" loading="lazy" src="//a.storyblok.com/f/48509/460x232/d1cb9af7bd/highlight_3.png" />
+</div>
+<div class='feature-content'>
+<div class='feature-title'><p>Free to sign up, full access at fair rates</p>
+</div>
+<div class='feature-description'>
+
+</div>
+</div>
+</li>
+</ul>
+</div>
+
+<div class='blok blok__text '>
+<h2 class="display-2">Make love important.
+</h2><p><strong>Are you tired of superficial relations?</strong> Tired of dating? Love does not come knocking on your door. But our unique matchmaking technology will help you find that special someone to share your life with. <strong>You answer the questions, we figure out who your best match is.</strong> It works so well that instead of worrying whether it’s a match — you can just kiss.</p>
+
+</div>
+
+</div>
+</section>
+
+<section class='blok blok__content_section  alternative'>
+<div class='container'>
+
+<div class='blok blok__text  centered'>
+<h1 class="h2">Love is the most important thing in the world.
+</h1><p>And <strong>all</strong> humans deserve someone to share their lives with.</p>
+
+</div>
+
+<div class='blok blok__video'>
+<div class='iframely-embed'>
+<div class='iframely-responsive'>
+<a data-iframely-url='' href='https://vimeo.com/510614831/3a6aa3f130'></a>
+</div>
+</div>
+<script async charset='utf-8' src='https://cdn.iframe.ly/embed.js?key=68bb9706e44f2f37e242c23ee46a0ef1&amp;parent=blok'></script>
+</div>
+
+
+</div>
+</section>
+
+<section class='blok blok__content_section  alternative-2'>
+<div class='container'>
+
+<div class='blok blok__text '>
+<h2 class="display-1">Previous members.
+</h2>
+</div>
+
+<div class='blok blok__couples_carousel'>
+<ul id='360892c7-3429-4cc3-8dce-5b5d9f167f0d'>
+<li>
+<div class='story'>
+<figure class='story-container'>
+<div class='story-image'>
+<img alt="David and Lidia" src="https://single.imgix.net/https%3A%2F%2Fa.storyblok.com%2Ff%2F48509%2F852x852%2Fae6477c8bb%2Fdavid_lidia.jpg?ixlib=rails-2.1.4&w=280&h=280&fit=crop&s=4044deb292e64c4d041c5555be2b0fc8" />
+</div>
+<div class='story-content'>
+<footer>
+<cite class='story-names'>David and Lidia</cite>
+<cite class='story-end'>
+<span class='hyphen'>-</span>
+<span>matched on JustKiss™️</span>
+</cite>
+</footer>
+</div>
+</figure>
+</div>
+</li>
+<li>
+<div class='story'>
+<figure class='story-container'>
+<div class='story-image'>
+<img alt="Martin and Sue" src="https://single.imgix.net/https%3A%2F%2Fa.storyblok.com%2Ff%2F48509%2F540x540%2F74b95d66bb%2Fcouplecase_martinandsue.jpg?ixlib=rails-2.1.4&w=280&h=280&fit=crop&s=2c06a7d689054c25ec0ddd3dd0ac93b0" />
+</div>
+<div class='story-content'>
+<footer>
+<cite class='story-names'>Martin and Sue</cite>
+<cite class='story-end'>
+<span class='hyphen'>-</span>
+<span>matched on JustKiss™️</span>
+</cite>
+</footer>
+</div>
+</figure>
+</div>
+</li>
+<li>
+<div class='story'>
+<figure class='story-container'>
+<div class='story-image'>
+<img alt="John and Catherine" src="https://single.imgix.net/https%3A%2F%2Fa.storyblok.com%2Ff%2F48509%2F1200x1200%2F9cefb003eb%2Fjoachim_katrine.jpg?ixlib=rails-2.1.4&w=280&h=280&fit=crop&s=9be2680fe5002ccc8defadbbda0bc991" />
+</div>
+<div class='story-content'>
+<footer>
+<cite class='story-names'>John and Catherine</cite>
+<cite class='story-end'>
+<span class='hyphen'>-</span>
+<span>matched on JustKiss™️</span>
+</cite>
+</footer>
+</div>
+</figure>
+</div>
+</li>
+<li>
+<div class='story'>
+<figure class='story-container'>
+<div class='story-image'>
+<img alt="Jim and Julie" src="https://single.imgix.net/https%3A%2F%2Fa.storyblok.com%2Ff%2F48509%2F662x662%2F0899082ba5%2Fjim_julie.jpg?ixlib=rails-2.1.4&w=280&h=280&fit=crop&s=1a7b8c3e5d40416852337aaad6be2de0" />
+</div>
+<div class='story-content'>
+<footer>
+<cite class='story-names'>Jim and Julie</cite>
+<cite class='story-end'>
+<span class='hyphen'>-</span>
+<span>matched on JustKiss™️</span>
+</cite>
+</footer>
+</div>
+</figure>
+</div>
+</li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<section class='blok blok__content_section  default'>
+<div class='container'>
+
+<div class='blok blok__press_quote'>
+<figure class='press-clip-container'>
+<blockquote class='press-quote'>&quot;Millions of Brits turn to the web in search of a partner every year.&quot;</blockquote>
+<footer>
+<cite class='press-name'>
+<img loading="lazy" src="//a.storyblok.com/f/48509/398x126/74948a1326/dailymirror.png" />
+</cite>
+</footer>
+</figure>
+</div>
+
+<div class='blok blok__press_quote'>
+<figure class='press-clip-container'>
+<blockquote class='press-quote'>&quot;But more interesting that the pure technology is the science and psychology behind these site&#39;s success.&quot;</blockquote>
+<footer>
+<cite class='press-name'>
+<img loading="lazy" src="//a.storyblok.com/f/48509/450x93/69265e6b23/wired.png" />
+</cite>
+</footer>
+</figure>
+</div>
+
+<div class='blok blok__button  centered' id='efd598ea-2a49-4148-97a8-c864c4ea65fe'>
+<a class="btn btn btn-success btn-xl" href="/signup">Create a free profile now →</a>
+</div>
+
+</div>
+</section>
+
+<footer id='footer'>
+<div class='container'>
+<div class='row footer-help'>
+<div class='col-sm-4'>
+<h4 class='h3'>Need help?</h4>
+</div>
+<div class='col-sm-12'>
+<div class='footer-help-shortcuts'>
+<a href="/help"><span class='icon icon-smiley'></span>
+<span>Contact customer service</span>
+</a><a href="/help"><span class='icon icon-info-circled'></span>
+<span>Frequently asked questions</span>
+</a></div>
+</div>
+</div>
+<hr>
+<div class='row'>
+<div class='col-sm-4'>
+<h4 class='h3'>Shortcuts</h4>
+<ul id='shortcuts'>
+<li>
+<a href="/articles"><span class='emoji'>💝</span>
+<span>Articles</span>
+</a></li>
+<li>
+<a href="/signup?ref=footer"><span class='emoji'>🥰</span>
+<span>Create free profile</span>
+</a></li>
+<li>
+<a href="/privacy_policy"><span class='emoji'>🔒</span>
+<span>Privacy Policy</span>
+</a></li>
+<li>
+<a href="/terms"><span class='emoji'>✨</span>
+<span>Terms of Service</span>
+</a></li>
+<li>
+<a href="/terms/payment"><span class='emoji'>💳</span>
+<span>Terms of Purchase</span>
+</a></li>
+<li>
+<a href="/about"><span class='emoji'>💌</span>
+<span>About JustKiss</span>
+</a></li>
+</ul>
+<div class='copyright hidden-xs'>
+<p>&copy; 1999 &mdash; 2022 JUSTKISS LTD.</p>
+</div>
+<hr class='visible-xs'>
+</div>
+<div class='footer-articles col-sm-12'>
+<h4 class='h3'>
+<a href="/articles">Articles about dating</a>
+</h4>
+<div class='row'>
+<div class='col-sm-8 footer-article'>
+<a href='/articles/how-to-heal-a-broken-heart'>
+<div class='footer-article-image'>
+<img loading="lazy" src="https://single.imgix.net/https%3A%2F%2Fa.storyblok.com%2Ff%2F48509%2F2400x1256%2F8d519a70e4%2Fheartbreak.jpg?ixlib=rails-2.1.4&w=300&h=80&fit=crop&s=b1678275f4c909170075479dfd9c8b95" />
+</div>
+<h4 class='h4 footer-article-title'>How to heal a broken heart</h4>
+<p class='footer-article-teaser'>Heartbreak is like a shipwreck - you need to get away from it as soon as possible and see to get safely ashore. A broken heart can also pose a threat to your health.
+</p>
+</a>
+</div>
+<div class='col-sm-8 footer-article'>
+<a href='/articles/this-is-how-to-find-a-partner-in-2020'>
+<div class='footer-article-image'>
+<img loading="lazy" src="https://single.imgix.net/https%3A%2F%2Fa.storyblok.com%2Ff%2F48509%2F2400x1256%2F8d46bef5dc%2F2020.jpg?ixlib=rails-2.1.4&w=300&h=80&fit=crop&s=7533e6084d1550110d5cbb903bd6c430" />
+</div>
+<h4 class='h4 footer-article-title'>This is how to find a partner in 2021</h4>
+<p class='footer-article-teaser'>Set a goal, get out of your comfort zone, determine what is important for you and what is not - and get yourself ready for dating.</p>
+</a>
+</div>
+</div>
+<div class='copyright visible-xs'>
+<p>&copy; 1999 &mdash; 2022 JUSTKISS LTD.</p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+
+
+<div class='quick-signup' data-action='scroll@window-&gt;quick-signup#showOrHide' data-controller='quick-signup' id='quick-signup'>
+<div class='container'>
+<div class="message-list"><div class="message-avatar"><img alt="Sarah from JustKiss" src="https://d35vz4mrzuz1h1.cloudfront.net/assets/maria-6407fe6919132f5539b19ce8e5fcf055a5c75db9f511ba24625f1f93c7c20dc5.jpg" /></div><div class="message"><div class="message-content"><p>Let me help you find your perfect match ❤️</p>
+<a class='close' data-action='quick-signup#close'>
+<div class='icon icon-cancel'></div>
+</a>
+</div></div><div class="message"><div class="message-content"><p>Are you a man or a woman?</p>
+</div></div></div><div class='buttons'>
+<a class='btn btn-primary btn-outline btn-lg' href='/signup?form=true&amp;gender=male&amp;ref=quick-signup' title='Create free profile'>I&#39;m a man</a>
+<a class='btn btn-primary btn-outline btn-lg' href='/signup?form=true&amp;gender=female&amp;ref=quick-signup' title='Create free profile'>I&#39;m a woman</a>
+</div>
+</div>
+</div>
+
+</div>
+
+<!-- Google Tag Manager -->
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl+ '&gtm_auth=7Axfk7RBTxA7WCjOTtUE8g&gtm_preview=env-2&gtm_cookies_win=x';f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer', 'GTM-5WH3QQK');
+</script>
+<!-- End Google Tag Manager -->
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe height='0' src='https://www.googletagmanager.com/ns.html?id=GTM-5WH3QQK' style='display:none;visibility:hidden' width='0'></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<script>
+  // This is needed for Turbo to properly track the location:
+  window.dataLayer.push({ location: location.href.split('#')[0] });
+  window.dataLayerEvents.push({ event: 'page_view' });
+
+</script>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var request = new XMLHttpRequest();
+    request.open("POST", "/campaign_clicks");
+    request.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+    request.send(JSON.stringify({}));
+  })
+</script>
+
+
+
+<script type='application/ld+json'>
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.justkiss.com/#organization",
+  "name": "JustKiss™",
+  "url": "https://www.justkiss.co.uk/",
+  "logo": "https://d35vz4mrzuz1h1.cloudfront.net/assets/logo-squared-8c0144b2222c4dae4b9cf7e7b00150c887b2e2f435c33b3e1729b60da6c99a1e.png",
+  "sameAs": ["https://www.justkiss.com/"]
+}
+
+</script>
+
+<div class='unsupported-browser'>
+<div class='unsupported-browser-backdrop'></div>
+<div class='unsupported-browser-container'>
+<div class='unsupported-browser-content'>
+<div class='unsupported-browser-content-inner'>
+<p>Sorry, this website uses features that your browser doesn’t support.</p>
+<p>Upgrade to a newer version of <a rel="nofollow noopener" target="_blank" href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>, <a rel="nofollow noopener" target="_blank" href="https://www.google.com/chrome/">Chrome</a>, <a rel="nofollow noopener" target="_blank" href="https://support.apple.com/downloads/safari">Safari</a> or <a rel="nofollow noopener" target="_blank" href="https://www.microsoft.com/en-us/edge">Edge</a> and you’ll be all set.</p>
+</div>
+</div>
+</div>
+</div>
+
+<script>(function(){var js = "window['__CF$cv$params']={r:'741000002ad859d7',m:'iCRfWHh6Jvb1r904gcaP5_PkVN_JF8ygg_EwQrmcehE-1661552901-0-AXR16DWtwphnDzlUF1TQnR76NTnlS23fPyAc0dtS5IF1AfPle53E38zKjj8CJcDZIEDs3OEoHaC1gRdbzCeQK7uvkgOjbJ7VM4PDnjOoPukhhRSV7D5F8g53ftMdvQtamg==',s:[0xdff639d3e5,0xe2856fda27],u:'/cdn-cgi/challenge-platform/h/b'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+</html>
