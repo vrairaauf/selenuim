@@ -1,5 +1,5 @@
 VENV
-email.txt
+*.txt
+*.html
 *.exe
 *.c
-mail.txt
